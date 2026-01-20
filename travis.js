@@ -2,7 +2,7 @@ class travis {
 	constructor(game) {
 		this.game = game;
 		this.animator1 = new animator(ASSET_MANAGER.getAsset("./Player_Travis.png"), 0, 0, 48, 48, 16, 0.1);
-		this.animator2 = new animator(ASSET_MANAGER.getAsset("./Player_Travis_Death.png"), 0, 0, 48, 48, 7, 0.228571);
+		this.animator2 = new animator(ASSET_MANAGER.getAsset("./Player_Travis_Death.png"), 0, 0, 48, 48, 7, 0.1);
 
 		this.x = 0;
 		this.y = 0;
